@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+This extension was created using React ( Create React App).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Extension Link: https://chrome.google.com/webstore/detail/tab-history/necdeioggaohpigoghofcajbgcphdjak
 
-## Available Scripts
+HOW TO RUN/INSTALL:
 
-In the project directory, you can run:
+# npm install
+# npm run build
 
-### `npm start`
+Load the build folder content as an Chrome extension by following the below steps:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Navigate to chrome://extensions
+Select developer mode and click “Load unpacked extension”
+Navigate to the directory where you put your code and click Ok
+Assuming there are no errors, you should see a new icon in your toolbar.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#Features
 
-### `npm run build`
+One of the features in Chrome that I really like is the ability to create and customize groups of tabs. It helps me in arranging the tabs based on different parameters. 
+Despite this feature, lately I found myself drowning in sea of ‘tabs’ in Chrome. I used to open one tab and forget what were the last tabs I was working on opened. I’m sure you must have faced the same issue.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To solve this pain-point, I have created this Chrome extension. It will show the 5 most recently (can be configured to 10) visited tabs for each window. You can directly open the tab from the extension screen itself as well as close them.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+How to use the extension ? It's actually very easy.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. After installation, Pin the extension in the browser.
+2. On clicking the extension icon or Keyboard Shortcut (Mac: Command+U, Windows: Ctrl+U), Popup will show top 5 (default) most recently visited tabs for each window.
+3. The number of recent tabs to show can be configured to 5 or 10.
+4. Select "All Windows" to view tabs from all windows. Window ID are identifiers. They will be same for a single window.
+5. "Visit" action will make the Tab active (even if it's in a different window) and switch the user to that tab.
+6. "Remove action" will close the tab.
+7. Mute/Unmute tabs playing audio. Muted Tabs can be manually reloaded to unmute as well.
+8. Privacy: No data (Username, password, email, etc) is collected or shared with external sources. The extension doesn’t work with ‘Incognito mode’.
 
-### `npm run eject`
+I intend to make it more user friendly and add more relevant features. Do give it a try and let me know your thoughts.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Keyboard Shortcut to open (Mac: Command+U, Windows: Ctrl+U)
