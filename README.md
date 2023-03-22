@@ -1,13 +1,14 @@
 This extension was created using React ( Create React App).
 
-Extension Link: https://chrome.google.com/webstore/detail/tab-history/necdeioggaohpigoghofcajbgcphdjak
+Download Extension Link: https://chrome.google.com/webstore/detail/tab-history/necdeioggaohpigoghofcajbgcphdjak
+or 
+RUN/INSTALL locally:
 
-HOW TO RUN/INSTALL:
+# Steps
 
-# npm install
-# npm run build
-
-Load the build folder content as an Chrome extension by following the below steps:
+ - npm install
+ - npm run build
+ - Load the build folder content as an Chrome extension by following the below steps:
 
 Navigate to chrome://extensions
 Select developer mode and click “Load unpacked extension”
@@ -16,7 +17,7 @@ Assuming there are no errors, you should see a new icon in your toolbar.
 
 
 
-#Features
+# Features
 
 One of the features in Chrome that I really like is the ability to create and customize groups of tabs. It helps me in arranging the tabs based on different parameters. 
 Despite this feature, lately I found myself drowning in sea of ‘tabs’ in Chrome. I used to open one tab and forget what were the last tabs I was working on opened. I’m sure you must have faced the same issue.
